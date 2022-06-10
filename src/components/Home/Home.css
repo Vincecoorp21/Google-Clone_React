@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+}
+a {
+  all: unset;
+  margin-right: 10px;
+}
+.loginButton {
+  background: #1a73e8;
+  border: 1px solid transparent;
+  padding: 9px 15px;
+  min-width: 80px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 16px;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.loginButton:hover {
+  box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%),
+    0 1px 3px 1px rgb(66 133 244 / 15%);
+  background: #2b7de9;
+}
+
+.google-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.input-container input {
+  all: unset;
+  width: 100%;
+}
+
+.search-svg {
+  height: 20px;
+  line-height: 20px;
+  width: 20px;
+  margin-top: 3px;
+  color: #9aa0a6;
+  /* vertical-align: middle; */
+}
+.micro {
+  height: 24px;
+  width: 24px;
+  /* vertical-align: middle; */
+}
+.input-container {
+  display: flex;
+  z-index: 3;
+  height: 44px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 638px;
+  max-width: 584px;
+  padding: 0.5em;
+}
+.buttons-container button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
